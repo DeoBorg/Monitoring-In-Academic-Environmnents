@@ -3,7 +3,7 @@ import os
 
 
 def main():
-    video_path = "data/test_videos/test1.mp4"
+    video_path = "data/test_videos/test2.mp4"
     output_folder = "outputs/frames"
 
     os.makedirs(output_folder, exist_ok=True)
@@ -19,7 +19,7 @@ def main():
 
     fps = cap.get(cv2.CAP_PROP_FPS)
     SAVE_EVERY = int(fps)  # ~1 frame per second
-    
+
     print("Starting frame extraction...")
 
     while True:

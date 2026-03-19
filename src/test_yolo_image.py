@@ -3,7 +3,7 @@ import cv2
 
 
 def main():
-    image_path = "outputs/frames/frame_30.jpg"
+    image_path = "outputs/frames/frame_116.jpg"
 
     model = YOLO("yolov8n.pt")
 

@@ -1,7 +1,7 @@
 import cv2
 
 def main():
-    video_path = "data/test_videos/test1.mp4"
+    video_path = "data/test_videos/test2.mp4"
 
     cap = cv2.VideoCapture(video_path)
 
