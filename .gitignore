@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Data and outputs
+data/
+outputs/
+
+# Models
+models/
+*.pt
+*.onnx
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO training outputs (future)
+runs/
+wandb/
